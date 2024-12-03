@@ -33,6 +33,10 @@ export default function HomeScreen() {
     fetchCharc(page)
   }, []) // aciona a requisição a primeira vezx que carrega a página, pois a requisição posteriormente só é acionada com um click, a primeira vez que a pagina carregar nn haverá clique
 
+  const renderCharc = ({item} : {item: ICharcter}) => {
+    
+  }
+
   return (
     <>
     </>
